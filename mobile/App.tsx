@@ -1,3 +1,5 @@
+import './src/lib/dayjs';
+
 import {  StatusBar } from 'react-native';
 import { 
   useFonts, 
@@ -8,7 +10,7 @@ import {
 } from "@expo-google-fonts/inter";
 
 import { Loading } from "./src/components/Loading";
-import { DebugInstructions } from "react-native/Libraries/NewAppScreen";
+
 import { Home } from "./src/screens/Home";
 
 export default function App() {
